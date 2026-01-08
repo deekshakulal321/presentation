@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+
+/* Smooth fonts + scroll */
+html, body, #root { height: 100%; }
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; scroll-behavior: smooth; }
+
+/* Fancy gradient ring utility */
+@layer utilities {
+  .ring-fancy {
+    box-shadow:
+      0 0 0 3px rgba(255,255,255,.6),
+      0 0 0 10px rgba(99,102,241,.25);
+  }
+}
